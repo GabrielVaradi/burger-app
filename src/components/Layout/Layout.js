@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Layout.less"
+import "./Layout.scss"
 
 const layout = ( props ) => (
     <React.Fragment>

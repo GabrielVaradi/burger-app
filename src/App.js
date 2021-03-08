@@ -1,4 +1,4 @@
-import './App.less';
+import './App.scss';
 import Layout from "./components/Layout/Layout"
 import BurgerBuilder from "./containers/BurgerBuilder/BurgerBuilder"
 
