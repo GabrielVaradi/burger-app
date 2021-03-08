@@ -1,5 +1,6 @@
-@import './components/Layout/Layout';
-@import './containers/BurgerBuilder/BurgerBuilder';
+@import "./components/Layout/Layout";
+@import "./containers/BurgerBuilder/BurgerBuilder";
+@import "./containers/Burger/BurgerIngredients/BurgerIngredients";
 
 .App {
   text-align: center;

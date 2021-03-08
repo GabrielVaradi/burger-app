@@ -1,9 +1,8 @@
-import React from 'react'
-import "./Layout.scss"
+import React from "react"
 
 const layout = ( props ) => (
     <React.Fragment>
-        <div className="content"> Toolbar, SideDrawer, Backdrop</div>
+        <div className="contentLayout"> Toolbar, SideDrawer, Backdrop</div>
         <main>
             {props.children}
         </main>
