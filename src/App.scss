@@ -1,4 +1,5 @@
 @import "./containers/BurgerBuilder/BurgerBuilder";
+@import "./components/Logo/Logo";
 @import "./components/Layout/Layout";
 @import "./components/Burger/Burger";
 @import "./components/Burger/BurgerIngredient/BurgerIngredient";
@@ -8,6 +9,9 @@
 @import "./components/UI/Backdrop/Backdrop";
 @import "./components/UI/Button/Button";
 @import "./components/Navigation/Toolbar/Toolbar";
+@import "./components/Navigation/NavigationItems/NavigationItems";
+@import "./components/Navigation/NavigationItems/NavigationItem/NavigationItem";
+
 
 .App {
   text-align: center;
