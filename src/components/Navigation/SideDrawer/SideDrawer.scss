@@ -9,7 +9,7 @@
     background-color: white;
     padding: 32px 16px;
     box-sizing: border-box;
-    transition: transform 0.3 ease-out;
+    transition: transform 0.3s ease-out;
 }
 
 @media (min-width: 500px) {
@@ -19,20 +19,14 @@
 }
 
 .openDrawer {
-    transform: translateX(0)
+    transform: translateX(0px);
 }
 
 .closeDrawer {
-    transform: translateX(-100)
+    transform: translateX(-100vh);
 }
 
 .sideDrawerLogo {
     height: 11%;
     margin-bottom: 32px;
-}
-
-@media (max-width: 499px) {
-    .desktopOnly {
-        display: none;
-    }
 }
