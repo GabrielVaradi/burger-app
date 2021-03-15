@@ -3,7 +3,7 @@ import React from "react"
 
 const orderSummary = (props) => {
     const ingredientSummary = Object.keys(props.ingredients).map((ingredientKey => {
-        return  <li> 
+        return  <li key={ingredientKey}> 
                     <span style={{ textTransform: "capitalize" }}> {ingredientKey} </span> : {props.ingredients[ingredientKey]}
                 </li>
     }))
