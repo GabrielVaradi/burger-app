@@ -10,7 +10,6 @@ const sideDrawer = (props) => {
     if (props.show) {
         attachedClasses = ["sideDrawer", "openDrawer"]
     }
-    console.log(attachedClasses)
     return (
         <React.Fragment>
             <Backdrop show={props.show} modalClosed={props.clicked} />
