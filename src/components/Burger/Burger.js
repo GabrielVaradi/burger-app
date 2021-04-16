@@ -1,4 +1,6 @@
 import React from "react"
+//Get access to props from the nearest route (BurgerBuilder)
+import {withRouter} from "react-router-dom"
 import BurgerIngredient from "./BurgerIngredient/BurgerIngredient"
 
 const burger = (props) => {
@@ -24,4 +26,4 @@ const burger = (props) => {
     )
 }
 
-export default burger
+export default withRouter(burger)
