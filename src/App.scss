@@ -1,10 +1,11 @@
 @import "./containers/BurgerBuilder/BurgerBuilder";
 @import "./components/Logo/Logo";
-@import "./components/Layout/Layout";
+@import "./hoc/Layout/Layout";
 @import "./components/Burger/Burger";
 @import "./components/Burger/BurgerIngredient/BurgerIngredient";
 @import "./components/Burger/BuildControls/BuildControls";
 @import "./components/Burger/BuildControls/BuildControl/BuildControl";
+@import "./components/Order/CheckoutSummary/CheckoutSummary";
 @import "./components/UI/Modal/Modal";
 @import "./components/UI/Backdrop/Backdrop";
 @import "./components/UI/Button/Button";
